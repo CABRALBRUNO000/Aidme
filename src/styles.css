@@ -1,0 +1,701 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* MENU */
+
+.menu-bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #272B2B;
+    max-width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 10px;
+    flex: 0 1 auto;
+    max-width: 1366px;
+    /*     background: greenyellow; */
+}
+
+
+/* LOGO - MENU */
+
+.logo-adme {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex: 0 1 auto;
+    /* background: peru */
+}
+
+.marca {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: white;
+    width: 4em;
+    height: 3.4em;
+    line-height: 98.8%;
+    border-radius: 0.5em;
+    flex: 0 1 auto;
+    margin-right: 10px;
+}
+
+.marca a {
+    color: black;
+    font-family: Bree Serif;
+    font-size: 2.61em;
+    flex: 0 1 auto;
+}
+
+.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px flex: 0 1 auto;
+}
+
+.logo a {
+    color: white;
+    font-family: Bree Serif;
+    font-size: 2.61em;
+    flex: 0 1 auto;
+}
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    flex: 0 1 auto;
+    /*     background: teal; */
+}
+
+.nav a {
+    padding: 30px;
+    font-size: 1.5em;
+    color: white;
+    font-family: Bree Serif;
+    flex: 0 1 auto;
+}
+
+
+/* BANNER */
+
+.banner-bg {
+    background-image: url("banner-criancas3.png");
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 auto;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px 0 50px;
+}
+
+.in-banner1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-content: center;
+    /*background: yellow;
+}
+
+.in-inbanner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    /*background: blue;*/
+    margin: 15px;
+}
+
+.in-banner1 a {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    border: 3px solid #ffffff;
+    max-width: auto;
+    max-height: auto;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    padding: 0px 60px 0px;
+    font-family: bree serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 98, 8%;
+    text-align: right;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.in-banner1 p {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    font-family: bree serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 98, 8%;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 286px;
+    max-height: auto;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.in-banner2 {
+    /*background: blue;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1 auto;
+    margin-right: 20px;
+    max-width: 945px;
+    max-height: auto;
+    justify-content: flex-end;
+}
+
+.in-banner2 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: flex-end;
+    font-family: Bree Serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 111.976px;
+    line-height: 111px;
+    text-align: right;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    /*background: purple;*/
+    max-width: auto;
+    margin-bottom: 10px;
+}
+
+
+/* PROJETOS */
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    max-width: auto;
+}
+
+.projetos-individuais-bg {
+    display: flex;
+    flex: 0 1 892px;
+    max-width: 100%;
+    /*    background:yellow; */
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.projetos-individuais {
+    display: flex;
+    max-width: 1366px;
+}
+
+.projetos-individuais img {
+    padding: 20px;
+    max-height: 20.8125rem;
+    max-width: 20.8125rem;
+}
+
+.projetos-individuais div {
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.projetos-individuais-bg div p {
+    font-family: ubuntu;
+    display: block;
+    font-style: normal;
+    font-size: 24.0714px;
+    line-height: 164.8%;
+    color: #ffffff;
+    max-height: 300px;
+    text-align: justify;
+    /*background: green;*/
+}
+
+.projetos-individuais-bg div h1 {
+    /*background: yellowgreen;*/
+    flex-direction: column;
+    max-width: 480px;
+    max-height: 34px;
+    margin-bottom: 10px;
+    font-family: ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33.9359px;
+    line-height: 122.3%;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-shadow: 0px 1.16049px 1.16049px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.projetos-individuais-bg input {
+    /*    background: green;*/
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 10px;
+    margin-left: 20px;
+    max-width: 156px;
+    max-height: 51.16px;
+    background: #2C3E50;
+    box-shadow: 0px 2.52632px 2.52632px rgba(0, 0, 0, 0.25);
+    border-radius: 6.31579px;
+    border: 0px;
+    padding: 5px 15px;
+    font-family: ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28.0639px;
+    line-height: 164.8%;
+}
+
+.p1 {
+    background: #272B2B;
+}
+
+.p2 {
+    flex-direction: row-reverse;
+    background: #50AF4A;
+}
+
+.p3 {
+    background: #ECF0F1;
+}
+
+.p3 div p {
+    color: #272B2B
+}
+
+.p3 div h1 {
+    color: #272B2B
+}
+
+
+/* IMAGENS ILUSTRATIVAS */
+
+.imagens-bg {
+    background: #50AF4A;
+    max-height: 100%;
+    max-width: 100%
+}
+
+.imagens {
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    /*    background: red;*/
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.imagem {
+    margin: -100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img1 {
+    margin-left: 20px;
+}
+
+
+/* BARRA DE BUSCA */
+
+.busca-bg {
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    background: #272B2B;
+    height: 82px;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+    justify-content: center;
+    margin: 0px 10px;
+    max-width: 1366px;
+}
+
+.buscador img {
+    max-height: 37px;
+    max-width: 37px;
+    align-self: flex-end;
+}
+
+.busca-bg input {
+    display: flex;
+    height: 61px;
+    background: #272B2B;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 20px;
+}
+
+
+/* CAUSA */
+
+.causa-bg {
+    background: #0396A6;
+}
+
+.causa {
+    display: flex;
+    min-height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1366px;
+    height: 722px;
+    background-image: url("ajuda-img2.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.causa img {
+    align-self: flex-end;
+    max-height: 100%;
+    max-width: 100%;
+    order: 3;
+    margin: 0px;
+}
+
+.causa h1 {
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 80.9456px;
+    line-height: 128.3%;
+    margin-left: 30px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    max-width: 500px;
+    max-height: 720px;
+    color: #FFFFFF;
+    text-shadow: 0px 2.89154px 2.89154px rgba(0, 0, 0, 0.25);
+}
+
+.causa-branco {
+    background: #F2F2F2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    max-height: 463px;
+    max-width: 545px;
+    border-radius: 5px;
+    background: rgba(242, 242, 242, 0.8);
+    ;
+    margin-left: 550px;
+}
+
+.causa-branco h1 {
+    display: block;
+    font-family: ubuntu;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 48px;
+    line-height: 128.3%;
+    letter-spacing: 0.015em;
+    color: #4f4f4f;
+    margin-top: 34px;
+    margin-left: 50px;
+    margin-right: 44px;
+}
+
+.causa-branco p {
+    display: block;
+    font-family: ubuntu;
+    display: block;
+    font-style: italic;
+    font-size: 29.0714px;
+    line-height: 130.8%;
+    color: #4f4f4f;
+    max-height: 300px;
+    max-width: 397px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.causa-branco button {
+    display: block;
+    align-self: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    max-width: 156px;
+    max-height: 51.16px;
+    background: #2C3E50;
+    box-shadow: 0px 2.52632px 2.52632px rgba(0, 0, 0, 0.25);
+    border-radius: 6.31579px;
+    border: 0px;
+    padding: 5px;
+    padding: 0 20px;
+    margin: 10px;
+    font-family: ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28.0639px;
+    line-height: 164.8%;
+}
+
+.footer-bg {
+    background: #272B2B;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px;
+}
+
+.img-footer {
+    padding: 10px;
+}
+
+
+/* MEDIAS --------------------------------*/
+
+@media(max-width:1230px) {
+    .banner {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center
+    }
+    .banner-bg {
+        background-image: url("banner-criancas2.png");
+    }
+    .in-banner2 h1 {
+        font-size: 100.9px;
+        line-height: 90.5px;
+        text-align: center;
+        order: -2;
+    }
+    .causa h1 {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 40.9456px;
+        line-height: 128.3%;
+    }
+}
+
+@media(max-width: 1290px) {
+    .projetos-individuais p {
+        text-align: justify;
+    }
+    .imagens {
+        align-items: center;
+        justify-content: center;
+    }
+    .img3 {
+        margin-left: 20px;
+        margin-top: -150px;
+    }
+}
+
+@media(max-width:880px) {
+    .in-banner2 h1 {
+        justify-content: center;
+        font-size: 80.9px;
+        line-height: 70.5px;
+    }
+    .projetos-individuais {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img {
+        height: 300px;
+        width: 400px;
+    }
+    .imagens-bg {
+        padding-top: 20px;
+    }
+    .imagens {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 0px
+    }
+    .causa-branco h1 {
+        font-size: 25px;
+    }
+    .causa-branco p {
+        font-size: 19.0714px;
+        line-height: 130.8%;
+    }
+    .menu {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .logo-adme {
+        margin-bottom: 20px;
+        align-content: flex-start;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        /*    background-color: lightgreen*/
+    }
+    .nav li {
+        padding: 5px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width:755px) {
+    .causa {
+        background-image: url("ajuda-img3.png");
+    }
+    .causa {
+        display: flex;
+        flex-direction: column;
+    }
+    .causa-branco {
+        position: sticky;
+    }
+}
+
+@media(max-width:1024px) {
+    .causa-h1 {
+        width: 450px;
+        padding-left: 90px;
+    }
+}
+
+@media(max-width:780px) {
+    .causa {
+        background-image: url("ajuda-img3.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+    .causa-h1 {
+        width: 450px;
+        padding-left: 50px;
+    }
+    .causa-branco {
+        max-height: 600px;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: 390px;
+    }
+    .causa-bg {
+        max-height: 90%;
+        padding: 10px;
+    }
+}
+
+@media(max-width:750px) {
+    .causa {
+        background-image: url("ajuda-img2.png");
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        /*        background-color: firebrick;*/
+        padding: 0px;
+        margin: 0px;
+        flex: 0 0 auto;
+    }
+    .causa-h1 {
+        /*        background-color: gold;*/
+        width: auto;
+        margin-top: 15px;
+    }
+    .causa-branco {
+        display: flex;
+        align-self: center;
+        margin: 10px;
+        padding: 80px 0 80px;
+        margin-bottom: 400px;
+    }
+}

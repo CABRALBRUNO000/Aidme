@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: forestgreen;
+}
+
+
+/* MENU */
+
+.menu-bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms -flex-wrap: wrap;
+    flex -wrap: wrap;
+    background: #272B2B;
+    max -width: auto;
+    height: auto;
+    align -items: center;
+    justify -content: center;
+}
+
+.menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 10px;
+    flex: 0 1 auto;
+    max-width: 1366px;
+    /*     background: greenyellow; */
+}
+
+
+/* LOGO - MENU */
+
+.logo-adme {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    flex: 0 1 auto;
+    /* background: peru */
+}
+
+.marca {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: white;
+    width: 4em;
+    height: 3.4em;
+    line-height: 98.8%;
+    border-radius: 0.5em;
+    flex: 0 1 auto;
+    margin-right: 10px;
+}
+
+.marca a {
+    color: black;
+    font-family: Bree Serif;
+    font-size: 2.61em;
+    flex: 0 1 auto;
+}
+
+.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 10px flex: 0 1 auto;
+}
+
+.logo a {
+    color: white;
+    font-family: Bree Serif;
+    font-size: 2.61em;
+    flex: 0 1 auto;
+}
+
+
+/* BARRA DE NAVEGAÇÃO */
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    flex: 0 1 auto;
+    /*     background: teal; */
+}
+
+.nav a {
+    padding: 30px;
+    font-size: 1.5em;
+    color: white;
+    font-family: Bree Serif;
+    flex: 0 1 auto;
+}
+
+.footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px;
+    background: #272B2B;
+}
+
+.img-footer {
+    padding: 10px;
+}
+
+.main-centro {
+    display: flex;
+    flex-direction: row;
+    background-image: url(sobre-img.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 1170px;
+    /*   background-color: lightcoral;*/
+    padding: 111px 0px 111px 0;
+}
+
+.informacoes {
+    /*     background-color: royalblue; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 218px;
+    padding: 10px;
+    max-height: 100%;
+}
+
+.infor-contato {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.titulo-icon {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-icon img {
+    padding: 10px;
+}
+
+.titulo-icon h1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.3158px;
+    line-height: 98.8%;
+    color: #F2F2F2;
+}
+
+.informacoes-p p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 161.8%;
+    color: #F2F2F2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 316px;
+    margin-left: 45px;
+}
+
+
+/* FORMULÁRIO*/
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.form-contact {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #ECF0F1;
+    border: 0px solid #E9E9E9;
+    border-radius: 1px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 0px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+}
+
+.form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #ECF0F1;
+    border: 1px solid #E9E9E9;
+    border-radius: 1px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #2C3E50;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #2C3E50;
+    border-right: 1px solid #2C3E50;
+    transition: 1s;
+}
+
+.form-contact-button:hover {
+    opacity: 1;
+}
